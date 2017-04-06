@@ -1,0 +1,436 @@
+
+
+
+.container {
+  max-width: 960px;
+  margin-top: 600px;
+
+}
+
+.container img {
+  width: 100%;
+}
+
+.container figure {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 750px) {
+  .portrait {
+    width: 65%;
+  }
+}
+
+
+h8 {
+	/*position: fixed;*/
+	
+	/*font-size: 250%;*/
+	margin-top: 15px;
+
+    font-family: Raleway,HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #222;
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+h8 .subtitle {
+  font-size: 14px;
+}
+
+
+
+.container p {
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0em;
+  line-height: 1.6em;
+  text-transform: none;
+  color: #262626;
+}
+
+.title {
+  margin-left: 50px;
+  /*text-align: left;*/
+  margin-top: 2rem;
+
+
+}
+
+.title .subtitle {
+  font-size: 14px;
+}
+
+.post-title {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.title a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.image-with-caption {
+  position: relative;
+  padding-top: 0.25rem;
+  height: 600px;
+}
+
+.image-with-caption img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+.imgBorder {
+  padding: 15px 15px 15px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+  -moz-box-shadow: 0 1px 2px rgba(34,25,25,0.4);
+  -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
+
+
+.profilePicture {
+  position: relative;
+  
+  border-radius: 10px;
+  display: table;
+  margin: 0 auto;
+
+
+   padding:1px;
+   border:1px solid #021a40;
+   background-color:#ff0;
+
+}
+
+ #profileImg {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+
+   padding:1px;
+   border:1px solid #021a40;
+   background-color:#ff0;
+}
+
+#outer {
+  width: 100%;
+  text-align: center;
+  margin-top: -150px;
+  position: absolute;
+
+}
+
+.fixed {position:fixed; }
+
+.caption {
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  height: 470px;
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  text-align: center;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.image-with-caption a {
+  text-decoration: none;
+}
+
+.caption-title h1 {
+  font-weight: 500;
+}
+
+@media (min-width: 1000px) {
+  .caption-title h1 {
+    font-size: 6.5rem;
+  }
+}
+
+.caption-date {
+  padding-bottom: 5%;
+}
+
+.spacer {
+  padding-top: 2rem;
+}
+
+.cover-image img {
+  width: 100%;
+}
+
+h5 {
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0;
+}
+
+body {
+  padding-bottom: 20px;
+  
+}
+
+
+
+#outside {
+    width: 100%;
+    height: 150px;
+    background:; 
+    border: 0px solid #ccc;
+    -webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    overflow: hidden;
+    
+  }
+
+
+#inside {
+    border-top: 1px solid #ccc;
+    border-bottom:1px solid #ccc; 
+    border-right: 1px solid #ccc;
+    /*border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;*/
+    width:500px;
+    height:100px;
+    padding-left: 10px;
+    background:;
+    opacity: 1;/*.75;*/
+    /*
+    transition:width 2s;
+    -webkit-transition:width 2s;
+    /* Safari */
+    padding: 10px;
+    margin: 20px;
+
+    position: relative;
+
+   }
+
+
+   #inside:after, #inside:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+#inside:after {
+    border-width: 60px;
+	margin-top: -60px;
+
+   border-color: rgba(194, 225, 245, 0);
+	border-left-color: white;
+
+
+}
+#inside:before {
+    border-width: 61px;
+	margin-top: -61px;
+
+   border-color: rgba(194, 225, 245, 0);
+	border-left-color: #ccc;
+
+
+}
+
+
+
+
+#inside:hover:after {
+   
+    border-width: 0px;
+	margin-top: 0px;
+
+   border-color: rgba(194, 225, 245, 0);
+	border-left-color: white;
+
+   
+   
+   
+   
+   
+    /*width:93%;
+    
+    content:"";
+    display:inline-block;
+    position:absolute;
+    border:9px solid white;
+    border-color:transparent transparent transparent white;
+    top:41px;
+    left:-1px;
+
+
+    border-width: 60px;
+	margin-top: -60px;
+
+   border-color: rgba(194, 225, 245, 0);
+	border-right-color: white;
+    margin-left: -118px;
+*/
+}
+
+#inside:hover:before {
+    
+    
+     border-width: 0px;
+	margin-top: 0px;
+
+   border-color: rgba(194, 225, 245, 0);
+	border-left-color: #ccc;
+
+    
+    
+    
+    
+    /*width:93%;
+
+      content:"";
+    display:inline-block;
+    position:absolute;
+    border:10px solid black;
+    border-color:transparent transparent transparent black;
+    top:40px;*/
+    
+/*
+    border-width: 61px;
+margin-top: -61px;
+border-color: rgba(194, 225, 245, 0);
+border-right-color: #ccc;
+margin-left: -120px;
+
+*/
+
+}
+
+
+
+
+
+#inside:hover > h8 {
+	
+	color: #ccc;
+	
+}
+
+
+/* SOCIAL ICONS - GENERAL */
+.social { 
+	list-style:none; 
+	margin:20px auto;
+	 width:100%; 
+	 
+	 margin-left: 500px;
+	 
+	 position: fixed;
+	 
+	 /*margin-top: 40px;*/
+	 
+     
+	 	
+	 
+	 }
+
+.hidden { display: none; }
+
+.social li { display:inline; float:left; background-repeat:no-repeat; }
+
+.social li a { 
+	
+	display:block; 
+	width:75px; 
+	height:75px; 
+	padding-right:10px; 
+	position:relative; 
+	text-decoration:none; 
+	
+	
+	
+	
+	}
+
+
+.social li a strong { 
+	font-weight:normal; 
+	position:absolute; 
+	left:20px; top:-1px; 
+	color:#fff; 
+	padding:3px; 
+	z-index:9999;
+ text-shadow:1px 1px 0 rgba(0, 0, 0, 0.75); 
+ background-color:rgba(0, 0, 0, 0.7);
+ -moz-border-radius:3px; 
+ -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+ -webkit-border-radius:3px; 
+ -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+ border-radius:3px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+li.google { background-image:url("../images/circleColor/Google+.png"); }
+li.github { background-image:url("../images/circleColor/Github.png"); }
+li.facebook { background-image:url("../images/circleColor/Facebook.png"); }
+li.pinterest { background-image:url("../images/circleColor/Pinterest.png"); }
+li.linkedin { background-image:url("../images/circleColor/Linkedin.png"); }
+li.youtube { background-image:url("../images/circleColor/YouTube.png"); }
+li.whatsapp { background-image:url("../images/circleColor/WhatsApp.png"); }
+li.twitter { background-image:url("../images/circleColor/Twitter.png"); }
+
+
+
+
+/* SOCIAL ICONS - CSS3 */
+
+#css3:hover li { opacity:0.2; }
+
+#css3 li { -webkit-transition-property: opacity; -webkit-transition-duration: 500ms;
+ -moz-transition-property: opacity; -moz-transition-duration: 500ms; }
+#css3 li a strong { opacity:0;
+ -webkit-transition-property: opacity, top; -webkit-transition-duration: 300ms;
+ -moz-transition-property: opacity, top; -moz-transition-duration: 300ms; }
+
+#css3 li:hover { opacity:1; }
+#css3 li:hover a strong { opacity:1; top:-10px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
